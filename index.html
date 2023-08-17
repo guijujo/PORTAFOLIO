@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <!-- Metadatos -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Guillermo García">
+  <meta name="description" content="Portafolio de desarrollo web de Guillermo García">
+  <meta name="keywords" content="HTML, CSS, JavaScript, React, desarrollo web, diseño web">
+
+  <!-- Title -->
+  <title>Guillermo García - Mi portafolio - Desarrollo Web</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="./img/glow_icon_circle_b.png">
+
+  <!-- CSS personalizado -->
+  <link rel="stylesheet" href="./css/master.css">
+  <link rel="stylesheet" href="./color-modes/scss/master.css">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+  <!-- Bootstrap ICON´s -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+  <!-- Fuente personalizada -->
+  <link href="https://fonts.cdnfonts.com/css/nexa-bold" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  <!-- Boton de scrollTop -->
+
+  <a id="button">
+    <i class="bi bi-chevron-up"></i>
+  </a>
+
+
+  <!-- Barra de Navegacion -->
+  <header>
+    <nav class="navbar navbar-expand-md bd-navbar  bg-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./img/glow_web_desing_isologo_nuevo_black.png" alt="Glow Logo" width="100" height="30">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" style="flex-grow: 0;" id="navbarNav">
+          <ul class="navbar-nav d-flex justify-content-end align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sobreMi">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#servicios">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Seccion Hero -->
+  <section class="hero align-items-stretch seccion-clara user-select-none">
+    <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+      <img class="hero-principal-imagen rounded-circle" src="./img/imagenes-desarrolladores/desarrollador3.svg"
+        alt="Foto de Guillermo Garcia">
+      <h1 class="text-center">¡Hola!</h1>
+      <h2 class="text-center">Soy Guillermo García</h2>
+      <h3 class="text-center text-wrap">Desarrollo sitios web y hago diseño gráfico</h3>
+    </div>
+    <div class="hero-inferior text-center">
+      <img class="hero-inferior-imagen  rounded mx-auto d-block"
+        src="./img/Glow_Mockup_Responsive_Macbook+iPhone+II.png" alt="Mockup_Responsive_Macbook">
+    </div>
+  </section>
+
+  <!-- Seccion Sobre mi -->
+  <section id="sobreMi" class="sobre-mi seccion-oscura user-select-none">
+    <div class="container sobre-mi text-center">
+      <div class="col-12 col-md-6 align-content-center">
+        <h2 class="seccion-titulo">Conoce Glow Web Design</h2>
+        <p class="seccion-texto">Glow Web Design es una agencia de diseño web apasionada por la creación de experiencias
+          digitales cautivadoras y funcionales. Con una combinación única de creatividad y tecnología, nos esforzamos
+          por
+          iluminar la presencia en línea de nuestros clientes, asegurando que destaquen en el competitivo mundo digital.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seccion Experiencia -->
+  <section id="servicios" class="experiencia seccion-clara">
+    <div class="container user-select-none">
+      <div class="card col-12 col-md-auto">
+
+        <!-- Mision -->
+        <div class="circle">
+          <h2>Misión</h2>
+          <i class="bi bi-award rounded-circle"></i>
+        </div>
+        <div class="content">
+          <p>Nuestra misión es combinar creatividad y tecnología para entregar experiencias digitales que brillen con
+            calidad y profesionalismo. Queremos ser el faro que guía a nuestros clientes hacia el éxito en línea.</p>
+          <a href="#">+ INFO</a>
+        </div>
+      </div>
+
+      <!-- Audiencia -->
+      <div class="card col-12 col-md-auto">
+        <div class="circle">
+          <h2 class="experiencia-titulo">Audiencia</h2>
+          <i class="bi bi-people-fill rounded-circle"></i>
+        </div>
+        <div class="content">
+          <p>Nuestros clientes incluyen empresas emergentes, pequeñas y medianas empresas que buscan establecer una
+            fuerte presencia en línea. También colaboramos con profesionales independientes y emprendedores que valoran
+            un diseño web atractivo y funcional.</p>
+          <a href="#">+ INFO</a>
+        </div>
+      </div>
+
+      <!-- Servicios -->
+      <div class="card col-12 col-md-auto">
+        <div class="circle">
+          <h2>Servicios</h2>
+          <i class="bi bi-card-checklist rounded-circle"></i>
+        </div>
+        <div class="content">
+          <p>Nuestros servicios incluyen diseño y desarrollo de sitios web a medida, diseño responsivo para dispositivos
+            móviles, experiencia de usuario (UX) y diseño de interfaz (UI) de alta calidad, así como optimización para
+            motores de búsqueda (SEO).</p>
+          <a href="#">+ INFO</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seccion Proyectos -->
+  <section id="proyectos" class="proyectos-recientes seccion-oscura d-flex flex-column">
+    <h2 class="seccion-titulo user-select-none">Mis proyectos recientes</h2>
+    <h3 class="seccion-descripcion user-select-none">Estos son algunos proyectos que he creado</h3>
+    <!-- Galeria de proyectos -->
+    <div class="container text-center proyectos-contenedor">
+      <div class="row proyecto-contenedor">
+        <!-- Proyecto 1 -->
+        <div id="proyecto1" class="col-12 col-md-6 col-lg-4 my-3">
+          <div class="proyecto user-select-none">
+            <img src="./img/UNTREF-SCHOOL-2.png" alt="Proyecto UNTREF-SCHOOL">
+            <div class="overlay">
+              <p>Proyecto <br> UNTREF SCHOOL</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/guijujo/PROYECTO-INTEGRADOR-WEB-UNTREFSCHOOL" target="_blank"
+                  rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://guijujo.github.io/PROYECTO-INTEGRADOR-WEB-UNTREFSCHOOL/" target="_blank"
+                  rel="noopener noreferrer">
+                  <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Proyecto 2 -->
+        <div id="proyecto2" class="col-12 col-md-6 col-lg-4 my-3">
+          <div class="proyecto user-select-none">
+            <img src="./img/proyecto2.png" alt="Proyecto 1">
+            <div class="overlay">
+              <p>Proyecto Colaborativo</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/Marcela-Flores/Proyecto-GIT" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://marcela-flores.github.io/Proyecto-GIT/" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Proyecto 3 -->
+        <div id="proyecto3" class="col-12 col-md-6 col-lg-4 my-3">
+          <div class="proyecto user-select-none">
+            <img src="./img/proyecto3.png" alt="Proyecto 1">
+            <div class="overlay">
+              <p>Proyecto 3</p>
+              <div class="iconos-contenedor">
+                <a href="https://www.github.com" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="#proyectos" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Proyecto 4 -->
+        <div id="proyecto4" class="col-12 col-md-6 col-lg-4 my-3">
+          <div class="proyecto user-select-none">
+            <img src="./img/proyecto4.png" alt="Proyecto 1">
+            <div class="overlay">
+              <p>Proyecto 4</p>
+              <div class="iconos-contenedor">
+                <a href="https://www.github.com" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="#proyectos" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Proyecto 5 -->
+        <div id="proyecto5" class="col-12 col-md-6 col-lg-4 my-3">
+          <div class="proyecto user-select-none">
+            <img src="./img/proyecto5.png" alt="Proyecto 1">
+            <div class="overlay">
+              <p>Proyecto 5</p>
+              <div class="iconos-contenedor">
+                <a href="https://www.github.com" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="#proyectos" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Proyecto 6 -->
+        <div id="proyecto6" class="col-12 col-md-6 col-lg-4 my-3">
+          <div class="proyecto user-select-none">
+            <img src="./img/proyecto6.png" alt="Proyecto 1">
+            <div class="overlay">
+              <p>Proyecto 6</p>
+              <div class="iconos-contenedor">
+                <a href="https://www.github.com" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="#proyectos" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="https://github.com/guijujo/" target="_blank" rel="noopener noreferrer">
+      <button type="button" class="btn btn-info">
+        Ver más proyectos
+        <i class="bi bi-arrow-right-circle-fill"></i>
+      </button>
+    </a>
+  </section>
+
+  <!-- Seccion Carrusel testimonios -->
+  <section id="testimonios" class="testimonios seccion-clara">
+    <h2 class="seccion-titulo texto-blanco user-select-none">Testimonios</h2>
+    <h3 class="seccion-descripcion texto-blanco user-select-none">Estos son algunos testimonios de nuestros clientes...</h3>
+
+    <div id="testimonioCarrusel" class="carousel slide testimonios" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#testimonioCarrusel" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#testimonioCarrusel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#testimonioCarrusel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#testimonioCarrusel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#testimonioCarrusel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      </div>
+      <div class="carousel-inner">
+        <!-- Testimonio 1 -->
+        <div class="carousel-item active">
+          <div class="container">
+            <img src="./img/cliente1_Maria_Gonzalez_Duena_de_Pequena_Empresa.jpg"
+              class="testimonio-imagen rounded-circle" alt="María González, Dueña de Pequeña Empresa">
+            <p class="testimonio-texto user-select-none">Gracias a Glow Web Design, mi sitio web se destaca con elegancia y
+              funcionalidad.
+              Capturaron mi visión a la perfección y el proceso fue fluido y eficiente. Ahora tengo una plataforma que
+              atrae a más clientes que nunca.</p>
+            <div class="testimonio-info user-select-none">
+              <h5>María González, Dueña de Pequeña Empresa</h5>
+            </div>
+          </div>
+        </div>
+        <!-- Testimonio 2 -->
+        <div class="carousel-item">
+          <div class="container">
+            <img src="./img/cliente2_Javier_Rodriguez_Emprendedor_Digital.jpg" class="testimonio-imagen rounded-circle"
+              alt="Javier Rodríguez, Emprendedor Digital">
+            <p class="testimonio-texto user-select-none">Glow Web Design dio vida a mi visión. El equipo fue colaborativo y el resultado
+              fue un sitio web impresionante que superó mis expectativas. ¡Definitivamente volveré para futuros
+              proyectos!</p>
+            <div class="testimonio-info user-select-none">
+              <h5>Javier Rodríguez, Emprendedor Digital</h5>
+            </div>
+          </div>
+        </div>
+        <!-- Testimonio 3 -->
+        <div class="carousel-item">
+          <div class="container">
+            <img src="./img/cliente3_Ana_Martinez_Directora_de_Marketing.jpg" class="testimonio-imagen rounded-circle"
+              alt="Ana Martínez, Directora de Marketing">
+            <p class="testimonio-texto user-select-none">Glow Web Design impulsó nuestro SEO y nos llevó a las primeras páginas de
+              búsqueda. Su enfoque en resultados reales y diseño inteligente nos posicionó en línea de manera sólida.
+              ¡Los recomiendo ampliamente!</p>
+            <div class="testimonio-info user-select-none">
+              <h5>Ana Martínez, Directora de Marketing</h5>
+            </div>
+          </div>
+        </div>
+        <!-- Testimonio 4 -->
+        <div class="carousel-item">
+          <div class="container">
+            <img src="./img/cliente4_Laura_Perez_Artista_Freelance.jpg" class="testimonio-imagen rounded-circle"
+              alt="Laura Pérez, Artista Freelance">
+            <p class="testimonio-texto">Glow Web Design capturó mi esencia artística y la transformó en un sitio web
+              impresionante. Ahora mi trabajo se destaca en línea de una manera que nunca imaginé. ¡Estoy más que
+              satisfecha
+              con el resultado!</p>
+            <div class="testimonio-info">
+              <h5>Laura Pérez, Artista Freelance</h5>
+            </div>
+          </div>
+        </div>
+        <!-- Testimonio 5 -->
+        <div class="carousel-item">
+          <div class="container">
+            <img src="./img/cliente5_Carlos_Sanchez_Startup_Tech.jpg" class="testimonio-imagen rounded-circle"
+              alt="Carlos Sánchez, Startup Tech">
+            <p class="testimonio-texto">Glow Web Design entendió nuestra startup y creó un diseño ágil y atractivo.
+              Ahora nuestro sitio web refleja nuestra innovación y tecnología. ¡Gracias por elevar nuestra presencia en
+              línea!</p>
+            <div class="testimonio-info">
+              <h5>Carlos Sánchez, Startup Tech</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonioCarrusel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonioCarrusel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- Seccion Carrusel wallpapers -->
+  <section id="carrusel-walpapers" class="wallpapers seccion-oscura">
+    <h2 class="seccion-titulo text-center texto-blanco">Wallpapers de Glow Web Design</h2>
+
+    <div id="wallpapers-carrusel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carrusel-walpapers" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carrusel-walpapers" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carrusel-walpapers" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carrusel-walpapers" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/glow_wallpaper_blue_b.png" class="d-block w-100" alt="glow_wallpaper_blue_b">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/glow_wallpaper_black.png" class="d-block w-100" alt="glow_wallpaper_black">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/glow_wallpaper_green_b.png" class="d-block w-100" alt="glow_wallpaper_green_b">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/glow_wallpaper_green_w.png" class="d-block w-100" alt="glow_wallpaper_green_w">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#wallpapers-carrusel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#wallpapers-carrusel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- Seccion de Contacto -->
+  <Section id="contacto" class="contacto seccion-clara">
+    <div class="container">
+      <div class="container text-center rectangulo d-flex justify-content-evenly">
+        <div class="row">
+          <div class="col-12 col-md-4 seccion-titulo">
+            ¡Hablemos!
+          </div>
+          <div class="col-12 col-md-4 descripcion">
+            Contáctame para iniciar tu proyecto de desarrollo web y haré que tu visión se vuelva realidad
+          </div>
+          <div class="col-12 col-md-4">
+            <a href="mailto:guijujo.25@gmail.com">
+              <button type="button">
+                Contacto
+                <i class="bi bi-envelope-at-fill"></i>
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </Section>
+
+  <!-- Seccion Pie de página (footer) -->
+  <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+    <img class="footer-logo" src="./img/glow_web_desing_isologo_nuevo_white.png" alt="">
+    <p class="footer-texto text-center">Creando ideas en proyectos reales. <br> Creemos un proyecto juntos. <br>
+      ¡Contáctanos! </p>
+    <div class="iconos-redes-sociales container text-center">
+      <div class="row">
+        <div class="col-4 col-md-2 d-flex align-content-center justify-content-center">
+          <a href="https://www.facebook.com/GrafikcenterITU/" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-facebook"></i>
+          </a>
+        </div>
+        <div class="col-4 col-md-2 d-flex align-content-center justify-content-center">
+          <a href="https://www.instagram.com/grafikcenteritu/?hl=es-la" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-instagram"></i>
+          </a>          
+        </div>
+        <div class="col-4 col-md-2 d-flex align-content-center justify-content-center">
+          <a href="https://www.linkedin.com/in/guijujo/" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-linkedin"></i>
+          </a>          
+        </div>
+        <div class="col-4 col-md-2 d-flex align-content-center justify-content-center">
+          <a href="https://www.github.com/guijujo" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-github"></i>
+          </a>          
+        </div>
+        <div class="col-4 col-md-2 d-flex align-content-center justify-content-center">
+          <a href="mailto:guijujo.25@gmail.com" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-envelope-at-fill"></i>
+          </a>        
+        </div>
+        <div class="col-4 col-md-2 d-flex align-content-center justify-content-center">
+          <a href="https://wa.me/5493786455869" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-whatsapp"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="derechos-de-autor">Creado por Glow Web Design (2023) &#169; </div>
+  </footer>
+
+  <!-- JavaScript -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+  <script src="./js/master.js"></script>
+
+</body>
+
+</html>
