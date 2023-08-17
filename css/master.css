@@ -396,8 +396,9 @@ h2 {
 }
 
 .proyectos-recientes button {
-    border-radius: 20px;
+    border-radius: 100px;
     box-shadow: 0 15px 25px rgba(0, 0, 0, .2);
+    padding: 1em 2em;
 }
 
 .proyectos-recientes button:hover {
@@ -432,7 +433,7 @@ h2 {
 
 .testimonios {
     padding: 20px;
-    /* background: linear-gradient(0deg, #00aaaa, #1572b6); */
+
 }
 
 .testimonios .carousel {
@@ -453,7 +454,7 @@ h2 {
 }
 
 .testimonio-imagen {
-    height: 150px;
+    height: 200px;
     width: 150px;
     padding: 5px;
     margin: 10px 10px 20px 10px;
@@ -478,12 +479,53 @@ h2 {
 /* Wallpapers */
 
 .wallpapers {
-    padding: 40px 40px 80px 40px;    
+    padding: 40px 40px 80px 40px;
     align-items: center;
 }
 
 .wallpapers .carousel {
     max-width: 800px;
+}
+
+.wallpapers .boton-descarga {
+    color: #fefefa;    
+    font-size: 1.2rem;
+    font-weight: bold;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .2);
+    background-color: transparent;
+    border: 2px solid #fefefa;
+    padding: 1em 2em;
+    margin: 10px;
+    border-radius: 150px;
+    transition: all 0.2s ease-in-out;
+}
+
+.wallpapers .boton-descarga:hover {
+    transform: scale(1.2);
+    color: #fefefa;
+    background: #00aaaa;
+    animation: animate 8s linear infinite;
+}
+
+.wallpapers .boton-descarga::before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -1;
+    background: linear-gradient(45deg, #13d1ff, #33a853, #4285f4);
+    background-size: 400%;
+    border-radius: 40px;
+    opacity: 0;
+    transition: 0.5%;
+}
+
+.wallpapers .boton-descarga:hover:before {
+    filter: blur(20px);
+    opacity: 1;
+    animation: animate 8s linear infinite;
 }
 
 /* Contacto */
@@ -521,6 +563,7 @@ h2 {
     margin: 10px;
     border-radius: 100px;
     transition: all 0.2s ease-in-out;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .2);
 }
 
 .contacto button:hover {
@@ -547,8 +590,8 @@ footer {
 }
 
 .footer-logo {
-    width: 100px;
-    height: 30px;
+    width: 200px;
+    height: 60px;
     margin: 10px;
 }
 
@@ -578,7 +621,7 @@ footer {
     transition: all 0.2s ease-in;
 }
 
-.iconos-redes-sociales a:hover {    
+.iconos-redes-sociales a:hover {
     border: 2px solid #fefefa;
     transform: scale(1.4);
     filter: drop-shadow(0 0 2px #33a9dc) drop-shadow(0 0 5px #33a9dc) drop-shadow(0 0 15px #33a9dc);
