@@ -5,10 +5,13 @@
 		},
 		{
 			"path": "../Argentina Programa 4.0/YoProgramo/Desarrollador web - Frontend/Tramo II/clases/clases5"
+		},
+		{
+			"path": "../Argentina Programa 4.0/YoProgramo/Desarrollador web - Frontend/Tramo II/clases/Ejercicios"
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "portafolio",
+		"liveServer.settings.multiRootWorkspaceName": "Ejercicios",
 		"fiveServer.browser": [
 			
 		],
