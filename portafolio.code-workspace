@@ -4,10 +4,7 @@
 			"path": "."
 		},
 		{
-			"path": "E:/Biblioteca/Diseño Gráfico/guijujo/Desarrollo web/Responsive Card Hover on Blur"
-		},
-		{
-			"path": "G:/Guille/Documentos/Guille/Programacion/Desarrollo Web/Coding Stella/9 Dot Navigation/9 Dot Navigation"
+			"path": "../Argentina Programa 4.0/YoProgramo/Desarrollador web - Frontend/Tramo II/clases/clases5"
 		}
 	],
 	"settings": {
@@ -20,7 +17,7 @@
 	"launch": {
 		"configurations": [
 			{
-				"type": "pwa-msedge",
+				"type": "msedge",
 				"name": "Launch Microsoft Edge",
 				"request": "launch",
 				"runtimeArgs": [
@@ -32,7 +29,7 @@
 				}
 			},
 			{
-				"type": "pwa-msedge",
+				"type": "msedge",
 				"name": "Launch Microsoft Edge in headless mode",
 				"request": "launch",
 				"runtimeArgs": [
